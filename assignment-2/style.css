@@ -4,12 +4,16 @@ h1 {
   font-size: 55px;
   text-align: center;
   margin-bottom: 19.92px;
+  display:flex;
+  flex-direction:column;
 }
 
 h2 {
   font-family: 'Lobster Two';
   font-weight: 400;
   text-align: center;
+  display:flex;
+  flex-direction:column;
 }
  
 body {
@@ -49,4 +53,10 @@ button {
   width: 20%;
   float: left;
   cursor: pointer;
+}
+
+.full-img{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
