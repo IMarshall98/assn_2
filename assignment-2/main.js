@@ -17,7 +17,6 @@ for (let i = 1; i <= 5; i++) {
   thumbBar.appendChild(newImage);
 
   // adding onClick handler to change to selected image path 
-  // (not sure why this works here but not in separate function/how to explain the logic/what the other way to do this would be)
   newImage.onclick = function() {
     displayedImage.setAttribute("src", path);
   }
