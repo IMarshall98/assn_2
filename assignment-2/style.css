@@ -1,19 +1,27 @@
+.header{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 h1 {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
   font-family: 'Lobster Two'; 
   font-weight: 700;
-  font-size: 55px;
+  font-size: 45px;
   text-align: center;
   margin-bottom: 19.92px;
-  display:flex;
-  flex-direction:column;
 }
 
 h2 {
   font-family: 'Lobster Two';
   font-weight: 400;
   text-align: center;
-  display:flex;
-  flex-direction:column;
 }
  
 body {
@@ -59,4 +67,14 @@ button {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+      justify-content: center;
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
 }
